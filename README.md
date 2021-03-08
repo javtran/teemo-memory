@@ -46,6 +46,9 @@ Press the stop button to stop the game.
 You will be allowed to have 3 mistakes total for the entire game. You lose if you make more than 3 mistakes.
 ![](http://g.recordit.co/7CWtJk2OaK.gif)
 
+The a new randomize sequence will play when starting a new round.
+![](http://g.recordit.co/8zWheD9uTY.gif)
+
 GIF created with [Recordit](https://recordit.co/).
 
 ## Reflection Questions
