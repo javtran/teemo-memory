@@ -1,0 +1,89 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: italic;
+  color: #d5d6ea;
+}
+
+button {
+  padding: 10px;
+  border-radius:10px;  
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit{
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fomega.jpg?v=1614638236327");
+  background-size: cover;
+  background-position: center;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active, #button2.lit{
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fcottontail.jpg?v=1614638320313");
+  background-size: cover;
+  background-position: center;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button3:active, #button3.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fblossom.jpg?v=1614637248027");
+  background-size: cover;
+  background-position: center;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fbeemo.jpg?v=1614638240212");
+  background-size: cover;
+  background-position: center;
+}
+
+#button5 {
+  background: #9370DB;
+}
+
+#button5:active, #button5.lit{
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fastronaut.jpg?v=1614638323265");
+  background-size: cover;
+  background-position: right;
+}
+
+#button6 {
+  background: #696969;
+}
+
+#button6:active, #button6.lit{
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fpanda.jpg?v=1614638372822");
+  background-size: cover;
+  background-position: right;
+}
