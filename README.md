@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-Press the start button to start the game. It will one more sequence after you successfully imitated the previous sequence.
+Press the start button to start the game. After you successfully imitated the previous sequence, it will play the next version of the sequence (adding one more pattern).
 Press the stop button to stop the game.
 ![](http://g.recordit.co/6EWEe1U8rw.gif)
 
