@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src = "http://g.recordit.co/w6nOEzMsXe.gif" width = 250><br>
+<img src = "http://g.recordit.co/6EWEe1U8rw.gif" width = 250><br>
 ![](http://g.recordit.co/w6nOEzMsXe.gif)
 
 GIF created with [Recordit](https://recordit.co/).
