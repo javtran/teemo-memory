@@ -50,7 +50,7 @@ A new randomize sequence will play when starting a new round.
 ![](http://g.recordit.co/8zWheD9uTY.gif)
 
 The sequences playback speeds up on each turn.
-![](http://g.recordit.co/mJmo6UoN9k.gif)
+![](http://g.recordit.co/DyTsLaRS5h.gif)
 
 GIF created with [Recordit](https://recordit.co/).
 
