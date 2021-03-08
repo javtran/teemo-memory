@@ -40,7 +40,10 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 Press the start button to start the game. It will one more sequence after you successfully imitated the previous sequence.
+
+Press the stop button to stop the game.
 ![](http://g.recordit.co/6EWEe1U8rw.gif)
+![](http://g.recordit.co/7CWtJk2OaK.gif)
 
 GIF created with [Recordit](https://recordit.co/).
 
