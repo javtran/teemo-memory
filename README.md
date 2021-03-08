@@ -4,7 +4,7 @@
 
 Submitted by: **Jackson Tran**
 
-Time spent: **5** hours spent in total
+Time spent: **6** hours spent in total
 
 Link to project: (insert your link here, should start with https://glitch.com...)
 ## Required Functionality
