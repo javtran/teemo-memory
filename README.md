@@ -66,7 +66,6 @@ GIF created with [Recordit](https://recordit.co/).
 - https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/createGain
 - https://www.youtube.com/watch?v=PNYHFluhOGI
 - https://na.leagueoflegends.com/en-us/champions/teemo/
-- 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
