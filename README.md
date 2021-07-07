@@ -1,4 +1,4 @@
-# Pre-work - *Teemo's Memory*
+# *Teemo's Memory*
 
 **Teemo's Memory** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
