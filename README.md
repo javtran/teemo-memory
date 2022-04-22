@@ -43,11 +43,31 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 Navigable slides between rules and the game.
+
 ![](https://media4.giphy.com/media/wUMaSp3nGwgRqhXdcB/giphy.gif?cid=790b76117c58c87fa04457efe867aa7ff25872344a217dc2&rid=giphy.gif&ct=g)
 
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+Press the start button to start the game. After you successfully imitated the previous sequence, it will play the next version of the sequence (adding one more pattern).
+
+![](https://media1.giphy.com/media/tKqtsoHnIXsVB19QVf/giphy.gif?cid=790b76117196d96c0e6026ba49a54f1624b2ca9627ca22c5&rid=giphy.gif&ct=g)
+
+Press the stop button to stop the game.
+
+![](https://media4.giphy.com/media/ueexCuE7Rf9YSY7Zju/giphy.gif?cid=790b761184b285ee367ef0266cc19ba3b71ed4a549416682&rid=giphy.gif&ct=g)
+
+You will be allowed to have 3 mistakes total for the entire game. You lose if you make more than 3 mistakes.
+
+![](https://media2.giphy.com/media/N9zqqaRCNYv5CLvUWB/giphy.gif?cid=790b7611aa3b153b55e922bef9285fc1c4215f5527a79b24&rid=giphy.gif&ct=g)
+
+A new randomize sequence will play when starting a new round.
+
+![](https://media4.giphy.com/media/2txllDktL8Gqt6OVx4/giphy.gif?cid=790b7611eae0ef88495e7181c9eb71c108fa4cbef8d8e974&rid=giphy.gif&ct=g)
+
+The sequences playback speeds up on each turn.
+
+![](https://media1.giphy.com/media/zvEGlwhxdKA1XALbfr/giphy.gif?cid=790b7611d0d051d0a7863bfc5133a5ee61fbaede0308ff6f&rid=giphy.gif&ct=g)
+
+The web app is responsive to screen sizes.
+![](https://media1.giphy.com/media/ITIHZpYhn4KKFIdR2a/giphy.gif?cid=790b761141d42aafaa686a1f3af253f259bf5c261861e22b&rid=giphy.gif&ct=g)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
