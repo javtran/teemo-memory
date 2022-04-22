@@ -67,6 +67,7 @@ The sequences playback speeds up on each turn.
 ![](https://media1.giphy.com/media/zvEGlwhxdKA1XALbfr/giphy.gif?cid=790b7611d0d051d0a7863bfc5133a5ee61fbaede0308ff6f&rid=giphy.gif&ct=g)
 
 The web app is responsive to screen sizes.
+
 ![](https://media1.giphy.com/media/ITIHZpYhn4KKFIdR2a/giphy.gif?cid=790b761141d42aafaa686a1f3af253f259bf5c261861e22b&rid=giphy.gif&ct=g)
 
 ## Reflection Questions
