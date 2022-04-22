@@ -42,9 +42,9 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-
+Navigable slides between rules and the game.
 ![](https://media4.giphy.com/media/wUMaSp3nGwgRqhXdcB/giphy.gif?cid=790b76117c58c87fa04457efe867aa7ff25872344a217dc2&rid=giphy.gif&ct=g)
+
 ![](gif2-link-here)
 ![](gif3-link-here)
 ![](gif4-link-here)
