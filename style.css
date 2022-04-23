@@ -1,0 +1,358 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  /*margin: 2em;*/
+  background-color: #000000;
+  color: white;
+}
+
+
+a {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 70px auto 70px auto;
+  color: inherit;
+  text-decoration: none;
+  color: #ffffff;
+  font: bold 2rem/0.3 Arial, sans-serif;
+  font-size: 50px;
+  transition: all 0.2s;
+  text-align: center;
+  line-height: 27px
+}
+
+a:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  background: #ffffff;
+  transition: all 0.1s;
+}
+
+a:hover {
+  transform: scale(1.5);
+}
+
+a:hover:after{
+  background: #ffffff;
+  transform: scaleX(1);
+}
+
+
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0.5em 3em 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+button:hover {
+  color: #dddddd;
+  border: #dddddd;
+}
+
+button:active {
+  color: #bbbbbb;
+  border: #bbbbbb;
+}
+
+.start {
+  margin: 30px 30px 30px 30px;
+}
+#startBtn {
+  background-color: #000000;
+}
+
+#startBtn:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  transform: translate3d(0, -10px, 0);
+}
+
+#stopBtn {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#stopBtn:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  transform: translate3d(0, -10px, 0);
+}
+#gameButtonArea{
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#gameButtonArea >button:hover {
+  transform: translate3d(0, 10px, 0);
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active,
+#button1.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fomega.jpg?v=1614638236327");
+  background-size: cover;
+  background-position: center;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active,
+#button2.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fcottontail.jpg?v=1614638320313");
+  background-size: cover;
+  background-position: center;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button3:active,
+#button3.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fblossom.jpg?v=1614637248027");
+  background-size: cover;
+  background-position: center;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4:active,
+#button4.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fbeemo.jpg?v=1614638240212");
+  background-size: cover;
+  background-position: center;
+}
+
+#button5 {
+  background: #9370db;
+}
+
+#button5:active,
+#button5.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fastronaut.jpg?v=1614638323265");
+  background-size: cover;
+  background-position: right;
+}
+
+#button6 {
+  background: #696969;
+}
+
+#button6:active,
+#button6.lit {
+  background-image: url("https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fpanda.jpg?v=1614638372822");
+  background-size: cover;
+  background-position: right;
+}
+
+.container {
+  font-family: inherit;
+  margin: auto;
+  width: 100%;
+  background: #000000;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  transition: 1s;
+  left: 0%;
+  opacity: 1;
+  position: relative;
+  background-color: #333333;
+  flex: 0 0 auto;
+  height: 600px;
+  width: 100%;
+}
+
+/* New */
+
+.page + .page {
+  margin-left: 20px;
+}
+
+.slide {
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  background: #333333;
+  transition: all 0.5s linear;
+  transform: translateX(0);
+}
+
+.content {
+  margin: auto;
+  height: 100%;
+}
+.content-Title {
+  text-align: center;
+  font-family: "Helvetica Neue", serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 15px;
+  transition: all 0.15s;
+}
+
+.text {
+  font-family: "Open Sans", serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  margin: 20px 20px 20px 20px;
+  transition: all 0.15s;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.center {
+  width: calc(100% - 52.75px);
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.arrow-left,
+.arrow-right {
+  position: relative;
+  padding: 5px;
+  margin: 0 30px 0 30px ;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+
+.arrow-left:hover {
+  transform: translate3d(-10px, 0, 0);
+}
+
+.arrow-right:hover {
+  transform: translate3d(10px, 0, 0);
+}
+
+.arrow-left::after,
+.arrow-right::after {
+  content: "";
+  position: absolute;
+  left: 17px;
+  z-index: 12;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+.arrow-left::after {
+  transform: rotate(-45deg);
+}
+
+.arrow-right::after {
+  transform: rotate(135deg);
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (max-width: 1350px) {
+  #gameButtonArea > button {
+    width: 150px;
+    height: 150px;
+  }
+  
+}
+@media all and (max-width: 50em) {
+  #gameButtonArea > button {
+    width: 100px;
+    height: 100px;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 30em) {
+  button {
+    display: block;
+    margin: 0.4em auto;
+  }
+
+  #gameButtonArea > button {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #startBtn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .content-Title {
+    font-size: 25px;
+  }
+  
+  .text {
+    font-size: 12px;
+  }
+  
+  h1{
+    
+  }
+  
+}

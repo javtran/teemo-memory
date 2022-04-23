@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Memory with Teemo</title>
+    <link rel="icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e9e0b1b5-8105-4486-909f-973dba69125c/db0cqmg-2ea837a5-a2b7-4298-b436-4cbd8d7029d3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U5ZTBiMWI1LTgxMDUtNDQ4Ni05MDlmLTk3M2RiYTY5MTI1Y1wvZGIwY3FtZy0yZWE4MzdhNS1hMmI3LTQyOTgtYjQzNi00Y2JkOGQ3MDI5ZDMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eXEtCzlcUk46xKHnbnzJ64s9rlmeow6OChs_xSETd94">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <a href = "https://teemo-memory.glitch.me/" class="">
+      <img src ="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e9e0b1b5-8105-4486-909f-973dba69125c/db0cqmg-2ea837a5-a2b7-4298-b436-4cbd8d7029d3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U5ZTBiMWI1LTgxMDUtNDQ4Ni05MDlmLTk3M2RiYTY5MTI1Y1wvZGIwY3FtZy0yZWE4MzdhNS1hMmI3LTQyOTgtYjQzNi00Y2JkOGQ3MDI5ZDMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eXEtCzlcUk46xKHnbnzJ64s9rlmeow6OChs_xSETd94" width="60">Memory with Teemo
+    </a>
+    
+    <div class="container">
+      <div class="slide">
+        <div class="page">
+          <div class="content row disable-select">
+            <div class = "column">
+              <div class ="content-Title">
+                Rules
+              </div>
+              <div class ="text">
+                Test your memory by imitating the teemo rhythm! 
+                This game is perfect for encourageing children to learn through play. 
+                This game challenges you to remember the flashing sequences and repeat them correctly. 
+                The flashing image and sound sequences will get harder as you get better at it. 
+                Press start button when you are ready to play. Press stop whenever you want to stop.
+              </div>
+            </div>
+            <div class="arrow-right"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="content row disable-select">
+            <div class ="arrow-left"></div>
+            <div class = "fill column">
+              <div class ="start center">
+                <button id="startBtn" onclick="startGame()">Start</button>
+
+                <button class="hidden" id="stopBtn" onclick="stopGame()">Stop</button>
+              </div>
+
+              <div id="gameButtonArea">
+                <audio
+                  src="https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fyessir.mp3?v=1614631820391"
+                  id="yessir"
+                ></audio>
+                <audio
+                  src="https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2FHut.mp3?v=1614632985498"
+                  id="hut"
+                ></audio>
+                <audio
+                  src="https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Freporting.mp3?v=1614633166708"
+                  id="reporting"
+                ></audio>
+                <audio
+                  src="https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fswiftly.mp3?v=1614633329687"
+                  id="swiftly"
+                ></audio>
+                <audio
+                  src="https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Flaugh.mp3?v=1614633486221"
+                  id="laugh"
+                ></audio>
+                <audio
+                  src="https://cdn.glitch.com/5bbcf5ca-efd6-49a2-8748-5029c9fc592e%2Fscout.mp3?v=1614633666678"
+                  id="scout"
+                ></audio>
+                <button
+                  id="button1"
+                  onmousedown="startTone(1)"
+                  onmouseup="stopTone(1)"
+                  onclick="guess(1)"
+                ></button>
+                <button
+                  id="button2"
+                  onmousedown="startTone(2)"
+                  onmouseup="stopTone(2)"
+                  onclick="guess(2)"
+                ></button>
+                <button
+                  id="button3"
+                  onmousedown="startTone(3)"
+                  onmouseup="stopTone(3)"
+                  onclick="guess(3)"
+                ></button>
+                <button
+                  id="button4"
+                  onmousedown="startTone(4)"
+                  onmouseup="stopTone(4)"
+                  onclick="guess(4)"
+                ></button>
+                <button
+                  id="button5"
+                  onmousedown="startTone(5)"
+                  onmouseup="stopTone(5)"
+                  onclick="guess(5)"
+                ></button>
+                <button
+                  id="button6"
+                  onmousedown="startTone(6)"
+                  onmouseup="stopTone(6)"
+                  onclick="guess(6)"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
