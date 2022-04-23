@@ -107,15 +107,14 @@ other engineering roles. And for current web development engineers, how does bei
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
 I have a few ideas in making this game better, but since I would only have a few hours I came down to these tasks. One idea is implementing a scoreboard that live broadcast players scores and ranks. In order to do so, I would have to implement some sort of database to store and receive data from users. There are existing
-database that are free to use that could ease the back end work. With the remaining time, I would use it smooth out how the game logic is affecting the Teemo's voice as the game progresses. As of now, the feature to speed up playback cuts out Teemo's voice and it can get to a point where Teemo's voice is not heard in a playback. A solution
-to this is to have the sound continue to play even if it overlaps with another sound playing.
+database that are free to use that could ease the back end work. With the remaining time, I would use it smooth out how the game logic is affecting the Teemo's voice as the game progresses. As of now, the feature to speed up playback cuts out Teemo's voice and it can get to a point where Teemo's voice is not heard in a playback. A solution to this is to have the sound continue to play even if it overlaps with another sound playing.
 
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1lvF3Pmh_orKrdu6IE0g5ODWdpM0dQhF5/view?usp=sharing)
 
 
 ## License
